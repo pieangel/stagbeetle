@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{e6e2508d-4411-4748-8f5b-92be5f329ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Login">
+      <UniqueIdentifier>{f85d211c-deca-427e-8843-1fe26816f75e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="StagBeetle.h">
@@ -57,6 +63,12 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Main\MainBeetle.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Login\SbLoginManager.h">
+      <Filter>Login</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="StagBeetle.cpp">
@@ -91,6 +103,12 @@
     </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\MainBeetle.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Login\SbLoginManager.cpp">
+      <Filter>Login</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
